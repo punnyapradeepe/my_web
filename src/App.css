@@ -10,51 +10,8 @@
   margin-bottom: 20px;
 }
 
-.input-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.column {
-  width: 45%;
-}
-
-.column h2 {
-  margin-bottom: 10px;
-}
-
-.column input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-}
-
-.add-button {
-  width: 100%;
-  padding: 8px;
-  margin-top: 10px;
-  background-color: #4CAF50; /* Green color */
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.add-button:hover {
-  background-color: #45a049; /* Darker green color */
-}
-
-.movies-list {
-  width: 100%;
-}
-
-.movies-list h2 {
-  margin-bottom: 10px;
-}
-
 .movie-table {
-  width: 100%;
-  margin-top: 20px;
+  width: 80%; /* Adjust the width as per your preference */
   border-collapse: collapse;
 }
 
@@ -62,17 +19,101 @@
 .movie-table td {
   border: 1px solid #ddd;
   padding: 8px;
+  text-align: center;
 }
 
 .movie-table th {
   background-color: #f2f2f2;
 }
 
+.add-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
 .remove-button {
   background-color: #f44336;
-  color: white;
   border: none;
+  color: white;
   padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.page-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-table {
+  width: 80%; /* Adjust the width as per your preference */
+  border-collapse: collapse;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.movie-table th {
+  background-color: #f2f2f2;
+}
+
+.add-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.remove-button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
   cursor: pointer;
 }
 
